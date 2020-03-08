@@ -1,0 +1,37 @@
+body {
+  background-color: #424874;
+  color: white;
+  font-family: Playfair Display;
+  text-align: center;
+}
+
+h1 {
+  color: #f4eeff;
+  font-family: Roboto;
+  font-weight: 80;
+  letter-spacing: 5px;
+  font-size: 30px;
+  line-height: 1.8;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div { 
+	margin: 80px 0px;
+	padding: 0px 24px;
+	box-shadow: 0px 10px 30px white;
+}
+	
+
+@media (max-width: 500px) { 
+	.container { 
+		width: 400px;
+	}
+}
+
+@media (max-width: 700px) { 
+	.container { 
+		width: 600px)
+    } 
+}
+
